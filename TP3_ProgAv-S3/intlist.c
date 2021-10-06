@@ -118,9 +118,9 @@ int main() {
 struct lst_t * new_lst_elm(int value) {
 	/** @note : calloc fonctionne de manière identique à malloc
 		et de surcroît met à NULL(0) tous les octets alloués */
-	struct lst_t * L = (struct lst_t *)calloc(1,sizeof(struct lst_t));
+	struct lst_t * L = (struct lst_t *)calloc(1, sizeof(struct lst_t));
 	assert(L);
-	L->x = value
+	L->head->x = value;
 	return L;
 }
 
@@ -165,7 +165,7 @@ struct lst_t * new_lst() {
 
 /** @brief Ajouter en tête de la liste L la valeur v */
 void cons(struct lst_t * L, int v) {
-	/* @TODO */
+	L->head->x = L
 }
 
 /** @brief Visualiser les éléments de la liste L */
@@ -178,6 +178,7 @@ void print_lst(struct lst_t * L ) {
 }
 
 /** @brief Libèrer la mémoire occupée par la liste */
-void del_lst(struct lst_t ** ptrL ) { /* del_lst_elm_t */
-	/* @TODO */
+void del_lst(struct lst_t ** ptrL ) {
+	free(ptrL);
+	assert(!ptrL);
 }

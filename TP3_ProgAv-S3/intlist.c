@@ -50,13 +50,11 @@ void del_lst_elm(struct lst_elm_t ** ptrE);
 
 /** @brief Renvoyer la valeur entière de l'élément */
 int getX(struct lst_elm_t * E);
-
-/** @brief Renvoyer le pointeur sur le successeur de l'élément */
-struct lst_elm_t * getSuc(struct lst_elm_t * E);
-
 /** @brief Modifier la valeur entière de l'élément */
 void setX(struct lst_elm_t * E, int v);
 
+/** @brief Renvoyer le pointeur sur le successeur de l'élément */
+struct lst_elm_t * getSuc(struct lst_elm_t * E);
 /** @brief Modifier le pointeur sur le successeur de l'élément */
 void setSuc(struct lst_elm_t * E, struct lst_elm_t * S);
 
@@ -116,6 +114,7 @@ int main() {
 	     x            x        v      v      v      v
 ***** ***** */
 
+/** @brief Créer un élément de liste et y ranger la valeur entière value */
 struct lst_t * new_lst_elm(int value) {
 	/** @note : calloc fonctionne de manière identique à malloc
 		et de surcroît met à NULL(0) tous les octets alloués */
@@ -125,32 +124,37 @@ struct lst_t * new_lst_elm(int value) {
 	return L;
 }
 
+/** @brief Supprimer un élément de liste et mettre son pointeur à NULL */
 void del_lst_elm(struct lst_elm_t ** ptrE) {
 
 }
 
+/** @brief Renvoyer la valeur entière de l'élément */
 int getX(struct lst_elm_t *E) {
     return E->x;
 }
-
-struct lst_elm_t * getSuc(struct lst_elm_t *E) {
-    return E->suc;
-}
-
+/** @brief Modifier la valeur entière de l'élément */
 void setX(struct lst_elm_t *E, int v) {
     E->x = v;
 }
 
+/** @brief Renvoyer le pointeur sur le successeur de l'élément */
+struct lst_elm_t * getSuc(struct lst_elm_t *E) {
+    return E->suc;
+}
+/** @brief Modifier le pointeur sur le successeur de l'élément */
 void setSuc(struct lst_elm_t *E, struct lst_elm_t *S) {
     E->suc = S->suc;
 }
 
 
+/** @brief Vérifier si la liste L est vide ou pas */
 bool empty_lst(const struct lst_t * L ) {
 	assert(L);
 	return L->numelm == 0;
 }
 
+/** @brief Construire une liste vide */
 struct lst_t * new_lst() {
     /** @note : calloc fonctionne de manière identique à malloc
     	et de surcroît met à NULL(0) tous les octets alloués */
@@ -159,10 +163,12 @@ struct lst_t * new_lst() {
     return L;
 }
 
+/** @brief Ajouter en tête de la liste L la valeur v */
 void cons(struct lst_t * L, int v) {
 	/* @TODO */
 }
 
+/** @brief Visualiser les éléments de la liste L */
 void print_lst(struct lst_t * L ) {
 	printf( "[ " );
 	for(struct lst_elm_t * E = L->head; E; E = E->suc) {
@@ -171,6 +177,7 @@ void print_lst(struct lst_t * L ) {
 	printf( "]\n\n" );
 }
 
+/** @brief Libèrer la mémoire occupée par la liste */
 void del_lst(struct lst_t ** ptrL ) { /* del_lst_elm_t */
 	/* @TODO */
 }

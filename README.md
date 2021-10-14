@@ -1,7 +1,7 @@
-# TD2 Prog Avance S3
+# TD Prog Avance S3
 _________________________
 
-## Mes taches
+## Mes taches (TD3)
 
 ### Taches à faire
 

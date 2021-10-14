@@ -37,26 +37,28 @@
 */
 struct lst_elm_t {
     int x;
-    struct lst_elm_t * suc;
+    struct lst_elm_t *suc;
 };
 
 /* ***** ***** DÉCLARATION DES FONCTIONS ASSOCIÉES ***** ***** */
 
 /** @brief Créer un élément de liste et y ranger la valeur entière value */
-struct lst_elm_t * new_lst_elm(int value);
+struct lst_elm_t *new_lst_elm(int value);
 
 /** @brief Supprimer un élément de liste et mettre son pointeur à NULL */
-void del_lst_elm(struct lst_elm_t ** ptrE);
+void del_lst_elm(struct lst_elm_t **ptrE);
 
 /** @brief Renvoyer la valeur entière de l'élément */
-int getX(struct lst_elm_t * E);
+int getX(struct lst_elm_t *E);
+
 /** @brief Modifier la valeur entière de l'élément */
-void setX(struct lst_elm_t * E, int v);
+void setX(struct lst_elm_t *E, int v);
 
 /** @brief Renvoyer le pointeur sur le successeur de l'élément */
-struct lst_elm_t * getSuc(struct lst_elm_t * E);
+struct lst_elm_t *getSuc(struct lst_elm_t *E);
+
 /** @brief Modifier le pointeur sur le successeur de l'élément */
-void setSuc(struct lst_elm_t * E, struct lst_elm_t * S);
+void setSuc(struct lst_elm_t *E, struct lst_elm_t *S);
 
 
 /** @brief Le type abstrait d'une _liste_:
@@ -65,27 +67,27 @@ void setSuc(struct lst_elm_t * E, struct lst_elm_t * S);
 	* + numelm - le nombre d'élément dans la liste
 */
 struct lst_t {
-    struct lst_elm_t * head;
-    struct lst_elm_t * tail;
+    struct lst_elm_t *head;
+    struct lst_elm_t *tail;
     int numelm;
 };
 
 /* ***** ***** DÉCLARATION DES FONCTIONS ASSOCIÉES ***** ***** */
 
 /** @brief Vérifier si la liste L est vide ou pas */
-bool empty_lst(const struct lst_t * L);
+bool empty_lst(const struct lst_t *L);
 
 /** @brief Construire une liste vide */
-struct lst_t * new_lst();
+struct lst_t *new_lst();
 
 /** @brief Ajouter en tête de la liste L la valeur v */
-void cons(struct lst_t * L, int v);
+void cons(struct lst_t *L, int v);
 
 /** @brief Visualiser les éléments de la liste L */
-void print_lst(struct lst_t * L );
+void print_lst(struct lst_t *L);
 
 /** @brief Libèrer la mémoire occupée par la liste */
-void del_lst(struct lst_t ** ptrL );
+void del_lst(struct lst_t **ptrL);
 
 
 /* ****** ****** ****** ****** ****** ****** La fonction principale main ****** ****** ****** ****** ****** ****** */
@@ -93,16 +95,16 @@ void del_lst(struct lst_t ** ptrL );
 /* ***** ***** ALGORITHME (FONCTION PRINCIPALE) ***** ***** */
 
 int main() {
-	int v;
-	struct lst_t * L = new_lst();
-	scanf("%d", &v);
-	while( v > 0 ) {
-		cons(L, v);
-		scanf("%d", &v);
-	}
-	print_lst(L);
-	del_lst(&L);
-	return EXIT_SUCCESS;
+    int v;
+    struct lst_t *L = new_lst();
+    scanf("%d", &v);
+    while (v > 0) {
+        cons(L, v);
+        scanf("%d", &v);
+    }
+    print_lst(L);
+    del_lst(&L);
+    return EXIT_SUCCESS;
 }
 
 
@@ -114,17 +116,17 @@ int main() {
 ***** ***** */
 
 /** @brief Créer un élément de liste et y ranger la valeur entière value */
-struct lst_t * new_lst_elm(int value) {
-	/** @note : calloc fonctionne de manière identique à malloc
-		et de surcroît met à NULL(0) tous les octets alloués */
-	struct lst_t * L = (struct lst_t *)calloc(1, sizeof(struct lst_t));
-	assert(L);
-	L->head->x = value;
-	return L;
+struct lst_t *new_lst_elm(int value) {
+    /** @note : calloc fonctionne de manière identique à malloc
+        et de surcroît met à NULL(0) tous les octets alloués */
+    struct lst_t *L = (struct lst_t *) calloc(1, sizeof(struct lst_t));
+    assert(L);
+    L->head->x = value;
+    return L;
 }
 
 /** @brief Supprimer un élément de liste et mettre son pointeur à NULL */
-void del_lst_elm(struct lst_elm_t ** ptrE) {
+void del_lst_elm(struct lst_elm_t **ptrE) {
 
 }
 
@@ -132,15 +134,17 @@ void del_lst_elm(struct lst_elm_t ** ptrE) {
 int getX(struct lst_elm_t *E) {
     return E->x;
 }
+
 /** @brief Modifier la valeur entière de l'élément */
 void setX(struct lst_elm_t *E, int v) {
     E->x = v;
 }
 
 /** @brief Renvoyer le pointeur sur le successeur de l'élément */
-struct lst_elm_t * getSuc(struct lst_elm_t *E) {
+struct lst_elm_t *getSuc(struct lst_elm_t *E) {
     return E->suc;
 }
+
 /** @brief Modifier le pointeur sur le successeur de l'élément */
 void setSuc(struct lst_elm_t *E, struct lst_elm_t *S) {
     E->suc = S->suc;
@@ -148,36 +152,36 @@ void setSuc(struct lst_elm_t *E, struct lst_elm_t *S) {
 
 
 /** @brief Vérifier si la liste L est vide ou pas */
-bool empty_lst(const struct lst_t * L ) {
-	assert(L);
-	return L->numelm == 0;
+bool empty_lst(const struct lst_t *L) {
+    assert(L);
+    return L->numelm == 0;
 }
 
 /** @brief Construire une liste vide */
-struct lst_t * new_lst() {
+struct lst_t *new_lst() {
     /** @note : calloc fonctionne de manière identique à malloc
     	et de surcroît met à NULL(0) tous les octets alloués */
-    struct lst_t * L = (struct lst_t *)calloc(1,sizeof(struct lst_t));
+    struct lst_t *L = (struct lst_t *) calloc(1, sizeof(struct lst_t));
     assert(L);
     return L;
 }
 
 /** @brief Ajouter en tête de la liste L la valeur v */
-void cons(struct lst_t * L, int v) {
-	L->head->x = L
+void cons(struct lst_t *L, int v) {
+    L->head->x = L
 }
 
 /** @brief Visualiser les éléments de la liste L */
-void print_lst(struct lst_t * L ) {
-	printf( "[ " );
-	for(struct lst_elm_t * E = L->head; E; E = E->suc) {
-		printf( "%d ", E->x );
-	}
-	printf( "]\n\n" );
+void print_lst(struct lst_t *L) {
+    printf("[ ");
+    for (struct lst_elm_t *E = L->head; E; E = E->suc) {
+        printf("%d ", E->x);
+    }
+    printf("]\n\n");
 }
 
 /** @brief Libèrer la mémoire occupée par la liste */
-void del_lst(struct lst_t ** ptrL ) {
-	free(ptrL);
-	assert(!ptrL);
+void del_lst(struct lst_t **ptrL) {
+    free(ptrL);
+    assert(!ptrL);
 }

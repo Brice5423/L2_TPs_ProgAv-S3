@@ -111,7 +111,6 @@ int main() {
 /* ***** ***** DÉFINITIONS DES FONCTIONS
 	@TODO Créez les fonctions:
 	new_lst_elm, del_lst_elm, getX, getSuc, setX, setSuc
-	     x            x        v      v      v      v
 ***** ***** */
 
 /** @brief Créer un élément de liste et y ranger la valeur entière value */

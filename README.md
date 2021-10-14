@@ -1,9 +1,9 @@
 # TD2 Prog Avance S3
 _________________________
 
-## Mes tache
+## Mes taches
 
-### Tache à faire
+### Taches à faire
 
 - new_lst_elm *(en cours)*
 - del_lst_elm
@@ -16,7 +16,7 @@ _________________________
 - print_lst
 - del_lst
 
-### Tache terminer
+### Taches terminer
 
 - getX
 - setX

@@ -5,23 +5,14 @@ _________________________
 
 ### Taches à faire
 
-- new_lst_elm *(en cours)*
-- del_lst_elm
-
-### Á regarder 
-
-- empty_lst
-- new_lst
-- cons
-- print_lst
-- del_lst
+- Faire les .h 
+- Fair les src (.c)
+- Modif le Makefile
+- exécuté le make
 
 ### Taches terminer
 
-- getX
-- setX
-- getSuc
-- setSuc
+
 
 _________________________
 
@@ -55,8 +46,8 @@ _Exemple, avec le TP2 :_
     - gcc nom_fichier.c -0 nom_executable
     - ./nom_executable
 - Méthode 2 :
-    - gcc -Wall -std=c11 -o pt_sgt sujet.c
-    - ./pt_sgt
+    - gcc -Wall -std=c11 -o nom_executable nom_fichier.c
+    - ./nom_executable
 
 ## Autre commende
 

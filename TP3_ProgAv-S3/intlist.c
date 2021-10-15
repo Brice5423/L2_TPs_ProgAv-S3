@@ -116,18 +116,20 @@ int main() {
 ***** ***** */
 
 /** @brief Créer un élément de liste et y ranger la valeur entière value */
-struct lst_t *new_lst_elm(int value) {
+struct lst_elm_t *new_lst_elm(int value) {
     /** @note : calloc fonctionne de manière identique à malloc
         et de surcroît met à NULL(0) tous les octets alloués */
-    struct lst_t *L = (struct lst_t *) calloc(1, sizeof(struct lst_t));
-    assert(L);
-    L->head->x = value;
-    return L;
+    struct lst_elm_t *E = (struct lst_elm_t *) calloc(1, sizeof(struct lst_elm_t));
+    assert(E);
+    E->x = value;
+    return E;
 }
 
 /** @brief Supprimer un élément de liste et mettre son pointeur à NULL */
 void del_lst_elm(struct lst_elm_t **ptrE) {
-
+    assert(ptrE && *ptrE);
+    free(*ptrE);
+    *ptrE = NULL;
 }
 
 /** @brief Renvoyer la valeur entière de l'élément */
@@ -168,7 +170,14 @@ struct lst_t *new_lst() {
 
 /** @brief Ajouter en tête de la liste L la valeur v */
 void cons(struct lst_t *L, int v) {
-    L->head->x = L
+    assert(L);
+    struct lst_elm_t *E = new_lst_elm(v);
+    assert(E);
+    E->suc = L->head;
+    L->head = E;
+    if (L->numelm == 0)
+        L->tail = E;
+    L->numelm++;
 }
 
 /** @brief Visualiser les éléments de la liste L */
@@ -182,6 +191,7 @@ void print_lst(struct lst_t *L) {
 
 /** @brief Libèrer la mémoire occupée par la liste */
 void del_lst(struct lst_t **ptrL) {
-    free(ptrL);
-    assert(!ptrL);
+    assert(ptrL && *ptrL);
+    free(*ptrL);
+    *ptrL = NULL;
 }

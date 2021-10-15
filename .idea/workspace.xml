@@ -7,11 +7,12 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="Test CMake : Mise en place CMake">
+      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/intlist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/intlist.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/intlist.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/segment2d.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/Makefile" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/Makefile" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/intlist.c" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/intlist.c" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zVimu64PrFATqIWJcLzGspwZoE" />
   <component name="ProjectViewState">
@@ -50,7 +51,8 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
-    <property name="settings.editor.selected.configurable" value="kite.configurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.intellij.sdk.settings.YoSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -58,9 +60,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
@@ -78,8 +80,19 @@
       <option name="presentableId" value="Default" />
       <updated>1634239818785</updated>
       <workItem from="1634239824940" duration="372000" />
-      <workItem from="1634240209789" duration="765000" />
+      <workItem from="1634240209789" duration="1501000" />
+      <workItem from="1634297600993" duration="4000" />
+      <workItem from="1634297953849" duration="1035000" />
+      <workItem from="1634299012872" duration="7533000" />
     </task>
+    <task id="LOCAL-00001" summary="Test CMake : Mise en place CMake">
+      <created>1634241116553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634241116553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

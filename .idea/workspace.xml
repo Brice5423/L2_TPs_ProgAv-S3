@@ -7,15 +7,8 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="Partie 1 fini : code compléter">
-      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/include/lst_elm_t.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/include/lst_t.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst_elm_t.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst_t.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/main.c" afterDir="false" />
+    <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +25,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/point2d.c" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/sujet.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/segment2d.c" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/sujet.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/Makefile" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/Makefile" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/intlist.c" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zVimu64PrFATqIWJcLzGspwZoE" />
@@ -55,7 +48,7 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.intellij.sdk.settings.YoSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -86,7 +79,7 @@
       <workItem from="1634240209789" duration="1501000" />
       <workItem from="1634297600993" duration="4000" />
       <workItem from="1634297953849" duration="1035000" />
-      <workItem from="1634299012872" duration="10736000" />
+      <workItem from="1634299012872" duration="11415000" />
     </task>
     <task id="LOCAL-00001" summary="Test CMake : Mise en place CMake">
       <created>1634241116553</created>
@@ -102,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634306991575</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="FINI : 2.2 Séparez les entêtes des définitions">
+      <created>1634310107278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634310107278</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +123,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test CMake : Mise en place CMake" />
     <MESSAGE value="Partie 1 fini : code compléter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Partie 1 fini : code compléter" />
+    <MESSAGE value="FINI : 2.2 Séparez les entêtes des définitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINI : 2.2 Séparez les entêtes des définitions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

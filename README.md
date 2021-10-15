@@ -5,10 +5,7 @@ _________________________
 
 ### Taches à faire
 
-- Faire les .h 
-- Fair les src (.c)
-- Modif le Makefile
-- exécuté le make
+
 
 ### Taches terminer
 

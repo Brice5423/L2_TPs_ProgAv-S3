@@ -15,14 +15,14 @@ CFLAGS = -g -Wall -std=c99 -I$(IDIR)
 LFLAGS = -lm
 
 # le programme final
-_PROG = #@TODO # nom pour l'exécutable
+_PROG = exec_tp3 # nom pour l'exécutable
 # On ajoute include/ à _PROG |==> include/pt_sgt
 PROG = $(patsubst %,$(BDIR)/%,$(_PROG))
 
-_DEP = #@TODO # nom des tous les fichiers .h
+_DEP = lst_elm_t.h lst_t.h # nom des tous les fichiers .h
 DEP = $(patsubst %,$(IDIR)/%,$(_DEP))
 
-_OBJ = #@TODO # nom de tous les fichiers .o
+_OBJ = main.o lst_elm_t.o lst_t.o # nom de tous les fichiers .o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 # Toutes les étiquettes qui ne sont pas des fichiers sont déclarées ici

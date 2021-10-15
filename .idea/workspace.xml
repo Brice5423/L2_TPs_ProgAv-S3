@@ -7,12 +7,15 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="Test CMake : Mise en place CMake">
-      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/intlist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="Partie 1 fini : code compléter">
+      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/include/lst_elm_t.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/include/lst_t.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst_elm_t.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst_t.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/intlist.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/intlist.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +86,7 @@
       <workItem from="1634240209789" duration="1501000" />
       <workItem from="1634297600993" duration="4000" />
       <workItem from="1634297953849" duration="1035000" />
-      <workItem from="1634299012872" duration="7533000" />
+      <workItem from="1634299012872" duration="10736000" />
     </task>
     <task id="LOCAL-00001" summary="Test CMake : Mise en place CMake">
       <created>1634241116553</created>
@@ -92,18 +95,35 @@
       <option name="project" value="LOCAL" />
       <updated>1634241116553</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Partie 1 fini : code compléter">
+      <created>1634306991575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634306991575</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test CMake : Mise en place CMake" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test CMake : Mise en place CMake" />
+    <MESSAGE value="Partie 1 fini : code compléter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Partie 1 fini : code compléter" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

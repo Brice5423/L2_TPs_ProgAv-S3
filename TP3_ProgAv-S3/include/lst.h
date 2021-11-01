@@ -40,4 +40,11 @@ void print_lst(struct lst_t *L);
 /** @brief Libèrer la mémoire occupée par la liste */
 void del_lst(struct lst_t **ptrL);
 
+
+/** @brief La fonction prend trois arguments : La liste L est modifiée par l’insertion de la valeur entière value après l’emplacement désigné par place. */
+void insert_after(struct lst_t *L, const int value, struct lst_elm_t *place);
+
+/** @brief La fonction insère dans l’ordre croissant la valeur entière value dans la liste L. */
+void insert_ordered(struct lst_t *L, const int value);
+
 #endif // _S3_LST_

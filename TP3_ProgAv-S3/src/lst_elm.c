@@ -2,7 +2,7 @@
 // Created by brice on 15/10/2021.
 //
 
-#include "lst_elm_t.h"
+#include "lst_elm.h"
 
 /** @brief Créer un élément de liste et y ranger la valeur entière value */
 struct lst_elm_t *new_lst_elm(int value) {

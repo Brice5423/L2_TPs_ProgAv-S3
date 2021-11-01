@@ -2,10 +2,10 @@
 // Created by brice on 15/10/2021.
 //
 
-#ifndef _S3_LST_T_
-#define _S3_LST_T_
+#ifndef _S3_LST_
+#define _S3_LST_
 
-#include "lst_elm_t.h"
+#include "lst_elm.h"
 
 #include <stdio.h> // librairie input/output
 #include <stdlib.h> // librairie standard
@@ -40,4 +40,4 @@ void print_lst(struct lst_t *L);
 /** @brief Libèrer la mémoire occupée par la liste */
 void del_lst(struct lst_t **ptrL);
 
-#endif // _S3_LST_T_
+#endif // _S3_LST_

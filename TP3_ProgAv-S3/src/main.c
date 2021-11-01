@@ -2,8 +2,8 @@
 // Created by brice on 15/10/2021.
 //
 
-#include "lst_elm_t.h"
-#include "lst_t.h"
+#include "lst_elm.h"
+#include "lst.h"
 
 int main() {
     int v;

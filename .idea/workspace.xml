@@ -9,6 +9,14 @@
   <component name="ChangeListManager">
     <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/bin/exec_tp3" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/bin/exec_tp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/include/lst_elm_t.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/include/lst_elm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/include/lst_t.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/include/lst.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst_elm_t.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst_elm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst_t.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +33,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/point2d.c" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/segment2d.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/sujet.c" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/segment2d.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/Makefile" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/Makefile" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/intlist.c" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zVimu64PrFATqIWJcLzGspwZoE" />
@@ -48,7 +56,7 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.intellij.sdk.settings.YoSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -79,7 +87,14 @@
       <workItem from="1634240209789" duration="1501000" />
       <workItem from="1634297600993" duration="4000" />
       <workItem from="1634297953849" duration="1035000" />
-      <workItem from="1634299012872" duration="11415000" />
+      <workItem from="1634299012872" duration="11688000" />
+      <workItem from="1634311046562" duration="30000" />
+      <workItem from="1634311094802" duration="65000" />
+      <workItem from="1634311179649" duration="26000" />
+      <workItem from="1634311224787" duration="609000" />
+      <workItem from="1635775363966" duration="183000" />
+      <workItem from="1635779745069" duration="17000" />
+      <workItem from="1635779798523" duration="526000" />
     </task>
     <task id="LOCAL-00001" summary="Test CMake : Mise en place CMake">
       <created>1634241116553</created>
@@ -102,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634310107278</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="FINI : 2.2 Séparez les entêtes des définitions">
+      <created>1634310974806</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634310974806</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

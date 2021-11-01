@@ -2,7 +2,7 @@
 // Created by brice on 15/10/2021.
 //
 
-#include "lst_t.h"
+#include "lst.h"
 
 /** @brief Vérifier si la liste L est vide ou pas */
 bool empty_lst(const struct lst_t *L) {

@@ -9,9 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/bin/exec_tp3" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/bin/exec_tp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/include/lst.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/include/lst.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/lst.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/lst.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/main.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst.c" afterDir="false" />
@@ -30,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -107,7 +113,7 @@
       <workItem from="1634311224787" duration="609000" />
       <workItem from="1635775363966" duration="183000" />
       <workItem from="1635779745069" duration="17000" />
-      <workItem from="1635779798523" duration="4778000" />
+      <workItem from="1635779798523" duration="12671000" />
     </task>
     <task id="LOCAL-00001" summary="Test CMake : Mise en place CMake">
       <created>1634241116553</created>
@@ -144,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635780544738</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mise en place de la fonction insert_after">
+      <created>1635785647322</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635785647322</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,10 +176,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Test CMake : Mise en place CMake" />
     <MESSAGE value="Partie 1 fini : code compléter" />
     <MESSAGE value="FINI : 2.2 Séparez les entêtes des définitions" />
-    <option name="LAST_COMMIT_MESSAGE" value="FINI : 2.2 Séparez les entêtes des définitions" />
+    <MESSAGE value="mise en place de la fonction insert_after" />
+    <option name="LAST_COMMIT_MESSAGE" value="mise en place de la fonction insert_after" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

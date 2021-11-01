@@ -74,5 +74,30 @@ void insert_after(struct lst_t *L, const int value, struct lst_elm_t *place) {
 
 /** @brief La fonction insère dans l’ordre croissant la valeur entière value dans la liste L. */
 void insert_ordered(struct lst_t *L, const int value) {
+    if (L->head == NULL || L->head->x >= value) {
+        cons(L, value);
+    } else if (L->tail->x <= value) {
+        struct lst_elm_t *newElm;
+        newElm = new_lst_elm(value);
+        assert(newElm);
 
+        L->tail->suc = newElm;
+        L->tail = newElm;
+        L->numelm++;
+    } else {
+        struct lst_elm_t *elmSuivie;
+        elmSuivie = L->head;
+        assert(elmSuivie);
+
+        int conteur = 0;
+        int boolContinue = 1;
+        while (boolContinue == 1 && conteur < L->numelm) {
+            if (elmSuivie->suc->x >= value) {
+                insert_after(L, value, elmSuivie);
+                boolContinue = 0;
+            }
+            elmSuivie = elmSuivie->suc;
+            conteur++;
+        }
+    }
 }

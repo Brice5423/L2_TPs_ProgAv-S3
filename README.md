@@ -1,15 +1,17 @@
 # TP Prog Avance S3
 _________________________
 
-## Mes taches (TP4)
+## Mes taches à faire au TP5
 
 ### Taches à faire
 
-
-
 ### Taches terminer
 
+_________________________
 
+## Mes taches à faire au TP4
+
+**Le faire à la maison
 
 _________________________
 
@@ -22,9 +24,10 @@ _________________________
 
 ### Modification 
 
-- **_PROG** : Permet de donner le nom qu'on veut pour l'exécutable 
+- **_PROG** : Permet de donner le nom qu'on veut pour l'exécutable
 - **_DEP** : Il faut donnée le nom de tous les fichiers **`.h`** qui faut compiler
-- **_OBJ** : Il faut donnée le nom de tous les fichiers **`.c`** qui faut compiler
+- **_OBJ** : Il faut donnée le nom de tous les fichiers **`.c`** qui faut compiler *(mettre un **`.o`** à la place
+  d'un **`.c`**)*
 
 _Exemple, avec le TP2 :_
 

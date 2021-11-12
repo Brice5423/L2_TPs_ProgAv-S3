@@ -15,14 +15,14 @@ CFLAGS = -g -Wall -std=c99 -I$(IDIR)
 LFLAGS = -lm
 
 # le programme final
-_PROG = exec_tp5
+_PROG = exec_tp5-p1
 # On ajoute include/ à _PROG |==> include/pt_sgt
 PROG = $(patsubst %,$(BDIR)/%,$(_PROG))
 
-_DEP = outils.h
+_DEP = lst_elm.h lst.h outils.h
 DEP = $(patsubst %,$(IDIR)/%,$(_DEP))
 
-_OBJ = main.o outils.o
+_OBJ = main.o lst_elm.o lst.o outils.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 # Toutes les étiquettes qui ne sont pas des fichiers sont déclarées ici

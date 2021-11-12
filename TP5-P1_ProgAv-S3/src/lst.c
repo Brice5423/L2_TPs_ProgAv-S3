@@ -29,6 +29,7 @@ bool empty_lst(const struct lst_t *L) {
     return L->numelm == 0;
 }
 
+
 /** @brief Ajouter en tête de la liste L la valeur v */
 void cons(struct lst_t *L, void *datum) {
     assert(L);
@@ -55,6 +56,7 @@ void queue(struct lst_t *L, void *datum) {
     E->suc = L->tail;
     L->tail = E;
 }
+
 
 /** @brief La fonction prend trois arguments :
  * La liste "L" est modifiée par l’insertion de la valeur entière "value" après l’emplacement désigné par "place". */
@@ -105,6 +107,7 @@ void insert_ordered(struct lst_t *L, const int value) {
     }
 }
 
+
 /** @brief Consulter la tête de la liste */
 struct lst_elm_t *getHead(struct lst_t *L) {
     return L->head;
@@ -114,6 +117,7 @@ struct lst_elm_t *getHead(struct lst_t *L) {
 struct lst_elm_t *getTail(struct lst_t *L) {
     /return L->tail;
 }
+
 
 /** @brief Consulter le nombre d'éléments rangés dans la liste */
 int getNumelm(struct lst_t *L) {
@@ -125,6 +129,7 @@ int setNumelm(struct lst_t *L, int numElm) {
     L->numelm = numElm;
 }
 
+
 /** @brief Visualiser les éléments de la liste L grâce à la fonction pointée par ptrFct */
 void view_lst(struct lst_t *L, void (*ptrFct )()) {
     printf("[ ");
@@ -132,4 +137,10 @@ void view_lst(struct lst_t *L, void (*ptrFct )()) {
         printf("%d ", E->x);
     }
     printf("]\n");
+}
+
+void print_lst(struct lst_t *L, void (*ptrf )()) {
+    for (struct lst_elm_t *E = L - > head; E; E = E->suc) {
+        (*ptrf)(E->datum);
+    }
 }

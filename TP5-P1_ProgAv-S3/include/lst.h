@@ -29,7 +29,7 @@ struct lst_t {
 struct lst_t *new_lst();
 
 /** @brief Libèrer la mémoire occupée par la liste */
-void del_lst(struct lst_t **ptrL/*, void (*ptrFct )()*/);
+void del_lst(struct lst_t **ptrL, void (*ptrFct )());
 
 /** @brief Vérifier si la liste L est vide ou pas */
 bool empty_lst(const struct lst_t *L);
@@ -60,6 +60,9 @@ int getNumelm(struct lst_t *L);
 int setNumelm(struct lst_t *L, int numElm);
 
 /** @brief Visualiser les éléments de la liste L grâce à la fonction pointée par ptrFct */
-void view_lst(struct lst_t *L/*, void (*ptrFct )()*/);
+void view_lst(struct lst_t *L, void (*ptrFct )());
+
+/** @brief Visualiser la liste entière */
+void print_lst(struct list *L, void (*ptrf )())
 
 #endif // _S3_LST_

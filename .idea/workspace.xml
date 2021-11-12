@@ -7,14 +7,12 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="Premier pas dans le TP5">
-      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst_elm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst_elm.c" afterDir="false" />
+    <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/bin/exec_tp3" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/bin/exec_tp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="TP2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -38,17 +41,37 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1636714956" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="TP2" />
+                    <option name="lastUsedInstant" value="1636714955" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst.c" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/outils.c" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst.h" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/point2d.c" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/sujet.c" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/segment2d.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/Makefile" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/Makefile" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/intlist.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/sujet.c" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/point2d.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/segment2d.c" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1zVimu64PrFATqIWJcLzGspwZoE" />
   <component name="ProjectViewState">
@@ -56,7 +79,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -64,14 +86,12 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TP5_ProgAv-S3" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\W_Programmation\Licence_Info\S3\Prog_Avance\TP_ProgAv-S3\TP5-P1_ProgAv-S3\src" />
-      <recent name="D:\W_Programmation\Licence_Info\S3\Prog_Avance\TP_ProgAv-S3\TP5-P1_ProgAv-S3\include" />
       <recent name="D:\W_Programmation\Licence_Info\S3\Prog_Avance\TP_ProgAv-S3\TP5_ProgAv-S3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -101,6 +121,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Makefile Target.Makefile" />
+        <item itemvalue="Makefile Target.Makefile" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +148,7 @@
       <workItem from="1635933766081" duration="49000" />
       <workItem from="1636120678100" duration="52000" />
       <workItem from="1636120762262" duration="384000" />
-      <workItem from="1636702402329" duration="10917000" />
+      <workItem from="1636702402329" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="Test CMake : Mise en place CMake">
       <created>1634241116553</created>
@@ -192,28 +213,7 @@
       <option name="project" value="LOCAL" />
       <updated>1636703313811</updated>
     </task>
-    <task id="LOCAL-00010" summary="Premier pas dans le TP5">
-      <created>1636704791054</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1636704791054</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Premier pas dans le TP5">
-      <created>1636706216355</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1636706216355</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Premier pas dans le TP5">
-      <created>1636708198769</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1636708198769</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,8 +240,7 @@
     <MESSAGE value="mise en place de la fonction insert_ordered" />
     <MESSAGE value="Mise en place du TP4" />
     <MESSAGE value="Mise en place du sujet TP5" />
-    <MESSAGE value="Premier pas dans le TP5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Premier pas dans le TP5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place du sujet TP5" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

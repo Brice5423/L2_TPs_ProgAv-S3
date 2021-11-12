@@ -3,7 +3,9 @@
 - TP2 : MakeFile
 - TP3 : Listes entiers
 - TP4 : Matrices et fichiers
-- TP5 : Listes simplement chaînées génériques
+- TP5 :
+  - Partie 1 : Listes génériques simples
+  - Partie 2 : Listes génériques doubles
 
 _________________________
 

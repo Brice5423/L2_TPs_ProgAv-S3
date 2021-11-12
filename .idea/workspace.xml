@@ -10,7 +10,11 @@
     <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5_ProgAv-S3/TP5_listes_simplement_chaînées_généiques.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/TP5_ProgAv-S3/TP5_listes_simplement_chaînées_génériques.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5_ProgAv-S3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5_ProgAv-S3/TP5_listes_simplement_chaînées_génériques.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/TP5-P1_listes_simplement_chaînées_génériques.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5_ProgAv-S3/include/outils.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/outils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5_ProgAv-S3/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5_ProgAv-S3/src/outils.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/outils.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TP5_ProgAv-S3/src/outils.c" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/outils.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/point2d.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/sujet.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/segment2d.c" root0="SKIP_INSPECTION" />
@@ -50,6 +54,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -118,7 +123,7 @@
       <workItem from="1635933766081" duration="49000" />
       <workItem from="1636120678100" duration="52000" />
       <workItem from="1636120762262" duration="384000" />
-      <workItem from="1636702402329" duration="3474000" />
+      <workItem from="1636702402329" duration="5416000" />
     </task>
     <task id="LOCAL-00001" summary="Test CMake : Mise en place CMake">
       <created>1634241116553</created>
@@ -190,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636704791054</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Premier pas dans le TP5">
+      <created>1636706216355</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1636706216355</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -8,12 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TP5_ProgAv-S3/TP5_listes_simplement_chaînées_généiques.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5_ProgAv-S3/outils/outils.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5_ProgAv-S3/outils/outils.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/bin/exec_tp3" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/bin/exec_tp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/lst.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/lst.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/lst.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/TP4_matrices.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5_ProgAv-S3/TP5_matrices_et_fichiers.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/TP4_matrices_et_fichiers.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +40,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/include/lst.h" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/src/lst.c" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP3_ProgAv-S3/src/lst_elm.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/point2d.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/sujet.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/segment2d.c" root0="SKIP_INSPECTION" />
@@ -68,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\W_Programmation\Licence_Info\S3\Prog_Avance\TP_ProgAv-S3\TP4_ProgAv-S3" />
       <recent name="D:\W_Programmation\Licence_Info\S3\Prog_Avance\TP_ProgAv-S3" />
     </key>
   </component>
@@ -113,7 +112,11 @@
       <workItem from="1634311224787" duration="609000" />
       <workItem from="1635775363966" duration="183000" />
       <workItem from="1635779745069" duration="17000" />
-      <workItem from="1635779798523" duration="12671000" />
+      <workItem from="1635779798523" duration="13137000" />
+      <workItem from="1635933766081" duration="49000" />
+      <workItem from="1636120678100" duration="52000" />
+      <workItem from="1636120762262" duration="384000" />
+      <workItem from="1636702402329" duration="872000" />
     </task>
     <task id="LOCAL-00001" summary="Test CMake : Mise en place CMake">
       <created>1634241116553</created>
@@ -157,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635785647322</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mise en place de la fonction insert_ordered">
+      <created>1635793684925</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635793684925</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Mise en place du TP4">
+      <created>1635793896479</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1635793896479</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +198,10 @@
     <MESSAGE value="Partie 1 fini : code compléter" />
     <MESSAGE value="FINI : 2.2 Séparez les entêtes des définitions" />
     <MESSAGE value="mise en place de la fonction insert_after" />
-    <option name="LAST_COMMIT_MESSAGE" value="mise en place de la fonction insert_after" />
+    <MESSAGE value="mise en place de la fonction insert_ordered" />
+    <MESSAGE value="Mise en place du TP4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place du TP4" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

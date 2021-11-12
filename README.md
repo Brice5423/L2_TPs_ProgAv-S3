@@ -1,4 +1,10 @@
 # TP Prog Avance S3
+
+- TP2 : MakeFile
+- TP3 : Listes entiers
+- TP4 : Matrices et fichiers
+- TP5 : Listes simplement chaînées génériques
+
 _________________________
 
 ## Mes taches à faire au TP5

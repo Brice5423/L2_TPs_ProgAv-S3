@@ -8,12 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP5_ProgAv-S3/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5_ProgAv-S3/src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5_ProgAv-S3/outils/outils.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5_ProgAv-S3/src/outils.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5_ProgAv-S3/outils/outils.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5_ProgAv-S3/include/outils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5_ProgAv-S3/TP5_listes_simplement_chaînées_généiques.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/TP5_ProgAv-S3/TP5_listes_simplement_chaînées_génériques.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +118,7 @@
       <workItem from="1635933766081" duration="49000" />
       <workItem from="1636120678100" duration="52000" />
       <workItem from="1636120762262" duration="384000" />
-      <workItem from="1636702402329" duration="2342000" />
+      <workItem from="1636702402329" duration="3474000" />
     </task>
     <task id="LOCAL-00001" summary="Test CMake : Mise en place CMake">
       <created>1634241116553</created>
@@ -186,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636703313811</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Premier pas dans le TP5">
+      <created>1636704791054</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636704791054</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +217,8 @@
     <MESSAGE value="mise en place de la fonction insert_ordered" />
     <MESSAGE value="Mise en place du TP4" />
     <MESSAGE value="Mise en place du sujet TP5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en place du sujet TP5" />
+    <MESSAGE value="Premier pas dans le TP5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Premier pas dans le TP5" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

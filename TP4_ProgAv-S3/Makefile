@@ -15,20 +15,20 @@ CFLAGS = -g -Wall -std=c99 -I$(IDIR)
 LFLAGS = -lm
 
 # le programme final
-_PROG = pt_lstelm
+_PROG = Matrice
 # On ajoute include/ à _PROG |==> include/pt_sgt
 PROG = $(patsubst %,$(BDIR)/%,$(_PROG))
 
 _DEP = pair.h matrix.h
 DEP = $(patsubst %,$(IDIR)/%,$(_DEP))
 
-_OBJ = main.o pair.o matrix.o
+_OBJ = pair.o matrix.o main.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 # Toutes les étiquettes qui ne sont pas des fichiers sont déclarées ici
 .PHONY: run dirs clean delete
 
-run : $(PROG)
+run : dirs $(PROG)
 	./$(PROG)
 
 # S'ils n'existent pas créer les dossiers bin et obj

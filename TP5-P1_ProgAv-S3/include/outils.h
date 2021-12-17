@@ -1,24 +1,27 @@
 #ifndef _OUTILS_
 #define _OUTILS_
 
-#include <stdbool.h>
+#include <stdlib.h> // librairie standard
+#include <stdio.h> // librairie input/output
+#include <stdbool.h> // librairie du type booléen
+#include <assert.h> // librairie d'assertions
 
-/** affichage d'une valeur entière */
+/** D'affichage d'une valeur entière. */
 void printInteger(int *i);
 
-/** suppression d'une mémoire de type entier */
+/** De suppression d'une mémoire de type entier. */
 void rmInteger(int *i);
 
-/** comparaison de 2 entiers */
-bool intcmp(int *i, int *j);
+/** De comparaison de 2 entiers. */
+bool cmpInteger(int *i, int *j);
 
-/** affichage d'une valeur réelle */
+/** D'affichage d'une valeur réelle. */
 void printDouble(double *d);
 
-/** suppression d'une mémoire de type réel */
+/** De suppression d'une mémoire de type réel. */
 void rmDouble(double *d);
 
-/** comparaison de 2 réels */
-bool reelcmp(double *u, double *v);
+/** De comparaison de 2 réels. */
+bool cmpDouble(double *u, double *v);
 
 #endif // _OUTILS_

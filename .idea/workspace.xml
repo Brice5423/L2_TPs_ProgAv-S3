@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
@@ -8,11 +11,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/TP4_matrices.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/bin/Matrice" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/data/A.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/data/B.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/obj/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/obj/matrix.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/obj/pair.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/bin/listen2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/obj/lst.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/obj/lst_elm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/obj/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/obj/outils.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/TP5-P2_listes_doublement_chaînées_génériques.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/bin/listen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/data/db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/data/db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/db.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/elm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/form.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/lst.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/outils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/db.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/elm.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/form.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/lst.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/outils.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/db.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/elm.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/form.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/lst.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/outils.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/bin/exec_tp3" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/bin/exec_tp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP3_ProgAv-S3/obj/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/include/matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/include/matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/include/pair.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/include/pair.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/src/matrix.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/src/matrix.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/src/pair.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/src/pair.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst_elm.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst_elm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/outils.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/outils.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst_elm.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst_elm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/outils.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/outils.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +114,16 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/Makefile" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/sujet.c" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/point2d.c" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/segment2d.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/sujet.c" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP4_ProgAv-S3/src/pair.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/segment2d.c" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/Makefile" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/point2d.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/main.c" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1zVimu64PrFATqIWJcLzGspwZoE" />
   <component name="ProjectViewState">
@@ -87,6 +139,8 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TP5_ProgAv-S3" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -95,21 +149,21 @@
       <recent name="D:\W_Programmation\Licence_Info\S3\Prog_Avance\TP_ProgAv-S3\TP5_ProgAv-S3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\W_Programmation\Licence_Info\S3\Prog_Avance\TP_ProgAv-S3\TP4_ProgAv-S3" />
       <recent name="D:\W_Programmation\Licence_Info\S3\Prog_Avance\TP_ProgAv-S3\TP5_ProgAv-S3\include" />
       <recent name="D:\W_Programmation\Licence_Info\S3\Prog_Avance\TP_ProgAv-S3\TP5_ProgAv-S3\src" />
-      <recent name="D:\W_Programmation\Licence_Info\S3\Prog_Avance\TP_ProgAv-S3\TP4_ProgAv-S3" />
       <recent name="D:\W_Programmation\Licence_Info\S3\Prog_Avance\TP_ProgAv-S3" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Makefile" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
@@ -120,7 +174,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Makefile Target.Makefile" />
         <item itemvalue="Makefile Target.Makefile" />
       </list>
     </recent_temporary>
@@ -149,6 +202,17 @@
       <workItem from="1636120678100" duration="52000" />
       <workItem from="1636120762262" duration="384000" />
       <workItem from="1636702402329" duration="2342000" />
+      <workItem from="1638015903137" duration="628000" />
+      <workItem from="1638028003198" duration="1135000" />
+      <workItem from="1638517279975" duration="149000" />
+      <workItem from="1638518230534" duration="187000" />
+      <workItem from="1638518438857" duration="635000" />
+      <workItem from="1638519714293" duration="3119000" />
+      <workItem from="1638949489750" duration="17000" />
+      <workItem from="1639753939645" duration="2781000" />
+      <workItem from="1639757174411" duration="40000" />
+      <workItem from="1639757233828" duration="1363000" />
+      <workItem from="1639758626625" duration="14020000" />
     </task>
     <task id="LOCAL-00001" summary="Test CMake : Mise en place CMake">
       <created>1634241116553</created>
@@ -213,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636703313811</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="TP5 P1 : Mise en place du 3.1">
+      <created>1636716471480</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636716471480</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +300,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
@@ -240,7 +310,8 @@
     <MESSAGE value="mise en place de la fonction insert_ordered" />
     <MESSAGE value="Mise en place du TP4" />
     <MESSAGE value="Mise en place du sujet TP5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en place du sujet TP5" />
+    <MESSAGE value="TP5 P1 : Mise en place du 3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP5 P1 : Mise en place du 3.1" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

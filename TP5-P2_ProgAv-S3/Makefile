@@ -15,14 +15,14 @@ CFLAGS = -g -Wall -std=c99 -I$(IDIR)
 LFLAGS = -lm
 
 # le programme final
-_PROG = listen2
+_PROG = listen
 # On ajoute include/ à _PROG |==> include/pt_sgt
 PROG = $(patsubst %,$(BDIR)/%,$(_PROG))
 
-_DEP = lst.h lst_elm.h outils.h
+_DEP = lst.h elm.h db.h form.h outils.h
 DEP = $(patsubst %,$(IDIR)/%,$(_DEP))
 
-_OBJ = lst.o lst_elm.o outils.o main.o
+_OBJ = lst.o elm.o db.o form.o outils.o main.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 # Toutes les étiquettes qui ne sont pas des fichiers sont déclarées ici

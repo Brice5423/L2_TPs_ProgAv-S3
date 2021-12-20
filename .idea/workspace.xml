@@ -11,55 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65551fe2-4f73-498d-b836-d27b467440b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/TP4_matrices.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/bin/Matrice" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/data/A.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/data/B.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/obj/main.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/obj/matrix.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/obj/pair.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/bin/listen2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/obj/lst.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/obj/lst_elm.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/obj/main.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/obj/outils.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/TP5-P2_listes_doublement_chaînées_génériques.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/bin/listen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/data/db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/data/db.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/db.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/elm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/form.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/lst.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/outils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/db.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/elm.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/form.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/lst.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/main.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/outils.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/db.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/elm.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/form.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/lst.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/outils.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/data/db.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/include/matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/include/matrix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/include/pair.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/include/pair.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/src/matrix.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/src/matrix.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4_ProgAv-S3/src/pair.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP4_ProgAv-S3/src/pair.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst_elm.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/lst_elm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/outils.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/include/outils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst_elm.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/lst_elm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/outils.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/outils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/bin/listen" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/bin/listen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/db.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/db.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/elm.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/elm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/outils.h" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/include/outils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/db.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/db.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/elm.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/elm.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/form.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/form.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/lst.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/lst.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/obj/main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/db.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/db.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/elm.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/elm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/form.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/form.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/lst.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/lst.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP5-P2_ProgAv-S3/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +89,7 @@
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/Makefile" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/TP2_ProgAv-S3/src/point2d.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TP5-P1_ProgAv-S3/src/main.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TP5-P2_ProgAv-S3/src/main.c" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -142,7 +111,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -161,9 +130,9 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="Makefile" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
@@ -212,7 +181,10 @@
       <workItem from="1639753939645" duration="2781000" />
       <workItem from="1639757174411" duration="40000" />
       <workItem from="1639757233828" duration="1363000" />
-      <workItem from="1639758626625" duration="14020000" />
+      <workItem from="1639758626625" duration="15032000" />
+      <workItem from="1639842739444" duration="626000" />
+      <workItem from="1640004685653" duration="1014000" />
+      <workItem from="1640005725560" duration="8950000" />
     </task>
     <task id="LOCAL-00001" summary="Test CMake : Mise en place CMake">
       <created>1634241116553</created>
@@ -284,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636716471480</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add : TP4 (ok) &amp; TP5 Partie 1 (ok) &amp; TP5 Partie 2 (a finir)">
+      <created>1639776140669</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1639776140669</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +290,8 @@
     <MESSAGE value="Mise en place du TP4" />
     <MESSAGE value="Mise en place du sujet TP5" />
     <MESSAGE value="TP5 P1 : Mise en place du 3.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP5 P1 : Mise en place du 3.1" />
+    <MESSAGE value="Add : TP4 (ok) &amp; TP5 Partie 1 (ok) &amp; TP5 Partie 2 (a finir)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add : TP4 (ok) &amp; TP5 Partie 1 (ok) &amp; TP5 Partie 2 (a finir)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

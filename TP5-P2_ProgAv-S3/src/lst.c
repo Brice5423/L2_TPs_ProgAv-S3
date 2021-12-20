@@ -1,11 +1,11 @@
 #include "lst.h"
 
-
 struct lst *new_lst() {
     struct lst *L;
 
     L = (struct lst *) calloc(1, sizeof(struct lst));
     assert(L);
+
     L->head = NULL;
     L->tail = NULL;
     L->num_elm = 0;
@@ -32,7 +32,7 @@ void del_lst(struct lst *L, void (*ptrF)()) {
 
 bool empty_lst(struct lst *L) {
     assert(L);
-    return L->num_elm == 0;
+    return (L->num_elm == 0);
 }
 
 struct elm *get_head(struct lst *L) {

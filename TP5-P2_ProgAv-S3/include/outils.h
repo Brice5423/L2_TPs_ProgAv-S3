@@ -1,8 +1,8 @@
 #ifndef _OUTILS_
 #define _OUTILS_
 
-#include <stdbool.h>
 #include <string.h>
+#include <stdbool.h>
 
 /** @brief Est ce que *a est plus grand que *b */
 bool pg_int(int *a, int *b);

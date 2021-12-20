@@ -9,7 +9,7 @@ enum mode {
 };
 
 /** @brief Ecrire une liste lst dans un fichier texte ou binaire selon le mode */
-void write_lst(struct lst *L, enum mode m, void(*ptrF)());
+void write_lst(struct lst *L, enum mode m, void (*ptrF)());
 
 /** @brief Transcrire en liste d'un fichier texte ou binaire selon le mode */
 struct lst *read_lst(enum mode m, void *(*ptrF)(), void (ptr_del)());

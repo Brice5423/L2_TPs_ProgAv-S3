@@ -6,7 +6,10 @@ void del_form(struct form *F) {
 }
 
 struct form *read_form(FILE *fd, enum mode m) {
-    struct form *F = (struct form *) calloc(1, sizeof(struct form));
+    struct form *F;
+
+    F = (struct form *) calloc(1, sizeof(struct form));
+
     if (m == TEXT) {
         fscanf(fd, " %s", F->product);
         F->product[len_max - 1] = '\0';
@@ -16,6 +19,7 @@ struct form *read_form(FILE *fd, enum mode m) {
     } else {
         fread(F, sizeof(struct form), 1, fd);
     }
+
     return F;
 }
 
@@ -49,5 +53,5 @@ void view_form(struct form *F) {
 }
 
 bool pg_form(struct form *F1, struct form *F2) {
-    return !(pg_string(F1->product, F2->product));
+    return (!(pg_string(F1->product, F2->product)));
 }

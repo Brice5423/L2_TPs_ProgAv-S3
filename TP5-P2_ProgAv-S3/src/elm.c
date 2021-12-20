@@ -4,6 +4,8 @@ struct elm *new_elm(void *data) {
     struct elm *E;
 
     E = (struct elm *) calloc(1, sizeof(struct elm));
+    assert(E);
+
     E->data = data;
     E->pred = NULL;
     E->suc = NULL;

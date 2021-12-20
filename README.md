@@ -9,20 +9,6 @@
 
 _________________________
 
-## Mes taches à faire au TP5
-
-### Taches à faire
-
-### Taches terminer
-
-_________________________
-
-## Mes taches à faire au TP4
-
-**Le faire à la maison
-
-_________________________
-
 ## Make
 
 ### Lancement
